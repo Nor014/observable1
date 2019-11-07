@@ -1,0 +1,14 @@
+.skills-list {
+  list-style: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  flex: 0 1 300px;
+}
+
+.skill {
+  padding: 5px;
+}
+
+.skill:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
